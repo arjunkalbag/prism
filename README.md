@@ -8,18 +8,7 @@ Prism floats on top of any DJ app (rekordbox, Serato, Traktor, djay, VirtualDJ) 
 real time — big, bold, and flicker-free. It's a real native `.app` (Swift + SwiftUI +
 AppKit) — no browser, no Electron, no localhost.
 
-```
-┌──────────────────────────────┐
-│  ● Prism            ● locked  │
-│                               │
-│  A                      ┌────┐│
-│  minor                  │ 8A ││
-│                         └────┘│
-│  ▁▃▆▂█▄▆▂█▅▆▃   124 BPM        │
-│  [    DJ    ] [  Producer  ]  │
-│   ◴ Camelot wheel + mix list  │
-└──────────────────────────────┘
-```
+![Prism](docs/preview.png)
 
 ## What it does
 
