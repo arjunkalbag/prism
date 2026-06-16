@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!--
+      No App Sandbox: ScreenCaptureKit system-audio capture and outbound
+      network (optional Anthropic call) work without sandboxing, and TCC
+      remembers the Screen Recording grant by bundle id + signature.
+      Ad-hoc signing (codesign -s -) is fine for personal use.
+    -->
+    <key>com.apple.security.app-sandbox</key>
+    <false/>
+    <key>com.apple.security.device.audio-input</key>
+    <true/>
+    <key>com.apple.security.network.client</key>
+    <true/>
+</dict>
+</plist>
